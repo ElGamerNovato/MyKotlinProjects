@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AppComidas</string>
+    <string-array name="productos">
+        <item>Ninguno</item>
+        <item>1 Pollo a la brasa</item>
+        <item>½ Pollo a la brasa</item>
+        <item>¼ Pollo a la brasa</item>
+        <item>Porción de anticucho</item>
+        <item>Pechuga de pollo</item>
+    </string-array>
+</resources>

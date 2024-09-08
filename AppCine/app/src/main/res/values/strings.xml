@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">App Cine</string>
+    <string name="reservaAsientos">RESERVA DE ASIENTOS</string>
+    <string name="Cliente">Cliente</string>
+    <string name="Genero">Genero</string>
+    <string name="Comedias">Comedias</string>
+    <string name="Dramaticas">Dramáticas</string>
+    <string name="Pelicula">Película</string>
+    <string name="cantidadAsientosAdultos">Cantidad de asientos para adultos</string>
+    <string name="cantidadAsientosNiños">Cantidad de asientos para niños</string>
+    <string name="procesar">PROCESAR</string>
+    <string name="detalleCompra">Detalle de la Compra:</string>
+    <string name="fotoPelicula">Foto de la película:</string>
+    <string name="volver">Volver</string>
+</resources>

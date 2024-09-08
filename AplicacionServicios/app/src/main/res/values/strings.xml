@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">AplicacionServicios</string>
+    <string name="Titulo1">DATOS DEL CLIENTE</string>
+    <string name="tvApartado1">Cliente</string>
+    <string name="tvApartado2">DNI</string>
+    <string name="Titulo2">SERVICIOS</string>
+
+    <string name="rbtnDuo">Dúo - Cámaras de Seguridad y Alarmas contra Robos</string>
+    <string name="rbtnTrio">Trio - Cámaras de Seguridad - Alarmas contra Robos - Alarmas contra Incendios</string>
+    <string name="rbtnCamaras">Solo Cámaras de Seguridad</string>
+    <string name="rbtnAntiRobo">Solo Alarmas contra Robos</string>
+    <string name="rbtnAntiIncendios">Solo Alarma contra Incendios</string>
+    <string name="rbtnCercos">Solo Cercos Eléctricos</string>
+
+    <string name="tvCostoServicios">COSTO SERVICIO</string>
+    <string name="tvCostoInstalacion">COSTO INSTALACIÓN</string>
+    <string name="tvDescuento">DESCUENTO</string>
+    <string name="tvTotalPagar">TOTAL PAGAR</string>
+
+    <string name="btnCalcular">Calcular</string>
+    <string name="btnImprimir">Imprimir</string>
+
+    <string name="PrecioCero">S/. </string>
+
+    <string name="Titulo3">RESUMEN SERVICIO</string>
+    <string name="tfCliente">Cliente: </string>
+    <string name="tfDNI">DNI: </string>
+    <string name="tfServicio">Servicio: </string>
+    <string name="tfCostoServicio">Costo Servicio: </string>
+    <string name="tfCostoInstalacion">Costo Instalación: </string>
+    <string name="tfDescuento">Descuento: </string>
+    <string name="tfTotalPagar">Total Pagar: </string>
+
+    <string name="btnVolver">VOLVER</string>
+</resources>

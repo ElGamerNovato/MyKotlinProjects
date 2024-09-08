@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_margin="40px"
+        android:orientation="vertical"
+        android:padding="15dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/tvMatricula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Matricula" />
+
+        <TextView
+            android:id="@+id/tvAlumno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alumno" />
+
+        <EditText
+            android:id="@+id/edtAlumno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/tvEscuela"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Escuela" />
+
+        <Spinner
+            android:id="@+id/spnEscuela"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvCarrera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Carrera" />
+
+        <Spinner
+            android:id="@+id/spnCarrera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvGastosAdicionales"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gastos Adicionales:" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:id="@+id/cbCarnetBiblioteca"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Carnet de Biblioteca" />
+
+            <CheckBox
+                android:id="@+id/cbCarnetMedioPasaje"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Carnet de Medio Pasaje" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/tvNumeroCuotas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Número de Cuotas" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rb4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4 cuotas" />
+
+            <RadioButton
+                android:id="@+id/rb5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5 cuotas" />
+
+            <RadioButton
+                android:id="@+id/rb6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6 cuotas" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/tvCostoCarrera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Costo de la carrera" />
+
+        <TextView
+            android:id="@+id/tvMontoCostoCarrera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="S/." />
+
+        <TextView
+            android:id="@+id/tvPension"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pensión" />
+
+        <TextView
+            android:id="@+id/tvMontoPension"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="S/." />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gastos Adicionales" />
+
+        <TextView
+            android:id="@+id/tvMontoGastosAdicionales"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="S/." />
+
+        <TextView
+            android:id="@+id/tvTotalPagar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total a pagar" />
+
+        <TextView
+            android:id="@+id/tvMontoTotalPagar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="S/." />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnCalcular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Calcular" />
+
+            <Button
+                android:id="@+id/btnImprimir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Imprimir" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PensionesKVBE</string>
+    <string-array name="arrayEscuela">
+        <item>Tecnologías de la información</item>
+        <item>Gestión y Negocios</item>
+    </string-array>
+</resources>
